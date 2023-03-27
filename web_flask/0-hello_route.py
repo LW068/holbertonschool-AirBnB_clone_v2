@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """ Script that runs an app with Flask framework """
+import sys
 from flask import Flask
 
 
+sys.path.append('.')
 app = Flask(__name__)
 
 
